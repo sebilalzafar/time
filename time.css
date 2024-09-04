@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.container {
+  background: cyan;
+  padding: 5% 10%;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 0 20px cyan, 0 0 40px cyan, 0 0 80px cyan;
+}
+
+.time {
+  font-size: 5rem;
+  display: inline-block;
+}
+
+.time-per {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-left: 1em;
+}
